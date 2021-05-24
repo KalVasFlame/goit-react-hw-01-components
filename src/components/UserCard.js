@@ -1,9 +1,8 @@
-import React from "react"
 import PropTypes from "prop-types"
 import defaultAvatar from "../img/default-avatar.jpg"
 
-const UserCard = ({avatar, name, tag, location, stats}) => {
-  return <div className="profile">
+const UserCard = ({ avatar, name, tag, location, stats }) =>
+  <div className="profile">
   <div className="description">
     <img
         src={avatar}
@@ -30,7 +29,6 @@ const UserCard = ({avatar, name, tag, location, stats}) => {
     </li>
   </ul>
 </div>
-}
 
 UserCard.defaultProps = {
   avatar: defaultAvatar
