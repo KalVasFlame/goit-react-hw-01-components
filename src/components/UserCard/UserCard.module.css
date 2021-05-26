@@ -1,0 +1,26 @@
+.UserCard {
+  flex-wrap: wrap;
+  display: flex;
+  width: 320px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 11px solid black;
+  border-radius: 8px;
+}
+
+.UserCard img {
+  width: 290px;
+}
+
+.UserInfoText {
+  font-style: italic;
+}
+
+.UserStatisticList,
+.UserInfoList {
+  margin-left: 15px;
+}
+
+.UserStatistic {
+  font-weight: 700;
+}
